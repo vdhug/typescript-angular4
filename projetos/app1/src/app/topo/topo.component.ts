@@ -5,4 +5,6 @@ import { Component } from '@angular/core'
     selector: 'app-topo',
     templateUrl: './topo.component.html'
 })
-export class TopoComponent {}
+export class TopoComponent {
+    public titulo: string = "Aprendendo Inglês"
+}
